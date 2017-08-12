@@ -19,11 +19,11 @@
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Inicio</a></li>
-      <li><a href="{{route('users.index')}}">Usuarios</a></li>
+      <li><a href="{{route('users.index')}}">Equipos</a></li>
 
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          Repuestos <b class="caret"></b>
+          Usuarios <b class="caret"></b>
         </a>
         <ul class="dropdown-menu">
           <li><a href="#">Moviles</a></li>
