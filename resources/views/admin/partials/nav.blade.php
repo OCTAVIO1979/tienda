@@ -19,23 +19,10 @@
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Inicio</a></li>
-      <li><a href="{{route('users.index')}}">Equipos</a></li>
+      <li><a href="{{route('equipos.index')}}">Equipos</a></li>
+      <li><a href="{{route('users.index')}}">Usuarios</a></li>
 
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          Usuarios <b class="caret"></b>
-        </a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Moviles</a></li>
-          <li><a href="#">Tabletas</a></li>
-          <li><a href="#">Pc de mesa</a></li>
-          
-          <li><a href="#">Laptops</a></li>
-          <li class="divider"></li>
-          <li><a href="#">Varios</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Contactanos</a></li>
+      <li><a href="{{route('tecnicos.index')}}">Tecnicos</a></li>
     </ul>
  
 
